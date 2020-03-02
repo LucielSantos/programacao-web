@@ -1,0 +1,208 @@
+body{
+   margin: 0px auto;
+   background-color: rgb(16, 17, 27)  !important;
+
+}
+
+p{
+   margin-bottom: 0px !important;
+}
+
+a{
+   color: white !important;
+   text-decoration: none;
+   text-decoration:none;
+}
+
+.container-fluid{
+   padding: 0px !important;
+}
+
+.navbar{
+   color: #3AE075 !important;
+   background-color: #21222C !important;
+   display: flex !important;
+   flex-direction: column;
+}
+.contentNav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+   padding: 1em 10em !important;
+}
+
+#navbarToggleExternalContent{
+   width: 100%;
+}
+
+.ability{
+   width: 100%;
+   display: flex !important;
+   flex-direction: row !important;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   border-top: 4px solid #313341;
+}
+
+.abilityIcon{
+   font-size: 50px;
+}
+
+.html5:hover{
+   color: #EA642B;
+}
+
+.css3:hover{
+   color: rgb(38, 189, 248);
+}
+
+.js:hover{
+   color: #F2D43B;
+}
+
+.react:hover{
+   color: #5FD3F3;
+}
+
+.git:hover{
+   color: #E94E31;
+}
+
+.code:hover{
+   color: #FF6D9C;
+}
+
+.containerIconAbility{
+   display: flex !important;
+   flex-direction: column !important;
+   align-items: center;
+   font-size: 18px;
+   font-weight: 600;
+   padding: 1em 2em;
+}
+
+.containerIconAbility:hover{
+   -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+   -o-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.leftNav{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.fa-laptop-code{
+   font-size: 2em;
+   margin-right: 1em;
+   color: #FF6D9C;
+}
+
+#name{
+   font-size: 2em;
+
+}
+
+.rightNav{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.buttonNav{
+   font-size: 22px;
+   margin-left: 3em;
+   cursor: pointer;
+}
+.buttonNav:hover{
+   color: rgb(39, 163, 82) !important;
+   -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+   -o-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+section{
+   display: flex !important;
+   justify-content: center !important;
+}
+
+.body{
+   background-color: #313341 !important;
+   margin: 7em 0px 1em 0px;
+   width: 75% !important;
+   padding: 2em;
+   border-radius: 1em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: white;
+}
+
+#about{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   font-size: 1.8em;
+}
+
+.profile{
+   height: 12em;
+   width: 12em;
+   border-radius: 20em;
+   margin-bottom: 1em;
+}
+
+.title{
+   font-size: 35px;
+   margin: 2em 0px 1em 0px !important;
+   color: #3AE075;
+   font-weight: 600;
+   font-style: italic;
+}
+
+#skills{
+   text-align: center;
+   width: 70%;
+}
+
+.skillsText{
+   font-size: 1.3em;
+}
+
+#contact{
+   width: 100%;
+   text-align: center;
+   font-size: 1.3em;
+}
+
+.contactIcon{
+   font-size: 1.3em;
+   margin-right: .5em;
+}
+
+.column{
+   display: flex !important;
+   align-items: center !important;
+   justify-content: center !important;
+}
+
+.fa-whatsapp{
+   color: #059E06;
+}
+
+.fa-facebook-square{
+   color: #4267B2;
+}
+
+.fa-instagram{
+   color: #F20B3B;
+}
